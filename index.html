@@ -1,92 +1,60 @@
+
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Alexandre - Uniformes Profissionais</title>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
-  <style>
-    body {
-      margin: 0;
-      background-color: #0d0d0d;
-      color: white;
-      font-family: 'Segoe UI', sans-serif;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      height: 100vh;
-    }
-    .card {
-      background-color: #1e1e1e;
-      border-radius: 20px;
-      padding: 20px;
-      text-align: center;
-      box-shadow: 0 0 20px rgba(0,255,255,0.2);
-      width: 300px;
-    }
-    .card img {
-      width: 100%;
-      border-radius: 15px;
-      margin-bottom: 15px;
-    }
-    h1 {
-      font-size: 22px;
-      margin: 10px 0 5px;
-      color: white;
-      text-shadow: 0 0 10px #ff6600;
-    }
-    h2 {
-      font-size: 14px;
-      margin: 0 0 20px;
-      color: #ccc;
-      text-shadow: 0 0 5px #ff6600;
-    }
-    .icons a {
-      margin: 10px;
-      font-size: 26px;
-      color: #00ffff;
-      text-decoration: none;
-      transition: 0.3s;
-    }
-    .icons a:hover {
-      color: #ff6600;
-    }
-    .button {
-      display: inline-block;
-      margin-top: 20px;
-      background: #00ffff;
-      color: #000;
-      padding: 10px 20px;
-      border-radius: 8px;
-      text-decoration: none;
-      font-weight: bold;
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>vCard Alexandre</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+        .container {
+            max-width: 600px;
+            margin: 50px auto;
+            background: white;
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        h1 {
+            color: #333;
+        }
+        .button, .drive-button {
+            background-color: #34A853;
+            color: white;
+            padding: 12px 20px;
+            border-radius: 8px;
+            font-weight: bold;
+            text-decoration: none;
+            display: inline-block;
+            margin: 10px 0;
+            transition: background 0.3s;
+        }
+        .button:hover, .drive-button:hover {
+            background-color: #2c8c47;
+        }
+        .drive-button img {
+            width: 20px;
+            vertical-align: middle;
+            margin-right: 8px;
+        }
+    </style>
 </head>
 <body>
-  <div class="card">
-    <img src="logo-alexandre.jpg" alt="Logo Alexandre"/>
-    <h1>Alexandre</h1>
-    <h2>Uniformes Profissionais</h2>
-    <div class="icons">
-      <a href="tel:+5531996174855" target="_blank">
-        <i class="fas fa-phone"></i>
-      </a>
-      <a href="https://wa.me/553196682690" target="_blank">
-        <i class="fab fa-whatsapp"></i>
-      </a>
-      <a href="https://www.facebook.com/share/1FagS6hyXQ/" target="_blank">
-        <i class="fab fa-facebook"></i>
-      </a>
-      <a href="https://www.instagram.com/alexandreuniformes?utm_source=qr&igsh=NjhyNnB1OXc2aHJo" target="_blank">
-        <i class="fab fa-instagram"></i>
-      </a>
-      <a href="https://maps.app.goo.gl/1WL124AN3L2m4mxD8?g_st=ac" target="_blank">
-        <i class="fas fa-map-marker-alt"></i>
-      </a>
+    <div class="container">
+        <h1>vCard de Alexandre</h1>
+        <p>Bem-vindo ao meu cartão digital!</p>
+
+        <!-- Botão do Google Drive -->
+        <a href="https://drive.google.com/drive/folders/1wINwIHbBtRC_tZb49e5uDJiRqp3v3SGi" target="_blank" class="button drive-button">
+            <img src="https://cdn-icons-png.flaticon.com/512/270/270798.png" alt="Google Drive">
+            Acessar Arquivos
+        </a>
     </div>
-    <a class="button" href="alexandre.vcf" download>Salvar Contato</a>
-  </div>
-  <!-- Atualização forçada em 28/04/2025 às 13:50h --> 
 </body>
 </html>
